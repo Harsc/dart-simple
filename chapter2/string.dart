@@ -7,7 +7,7 @@ void main() {
   string = r"text is \n text";
   print(string);
 
-  String string2 = "<dlaiealnflas>";
+  String string2 = "dl ai el nfl s";
   print(string2 + "tess");
   print(string2 == string);
   print(string2 * 2);
@@ -21,4 +21,15 @@ void main() {
   print(string.length);
   print(string.isEmpty);
   print(string.isNotEmpty);
+  print("=====");
+  print(string2.contains("bbc"));
+  print(string2.substring(1, 3));
+
+  print(string2.startsWith("<"));
+  print(string2.endsWith(">d"));
+  print(string2.split(" "));
+  print(string2.replaceAll("l", "110"));
+  print(string2.trim());
+  print(string2.length);
+
 }

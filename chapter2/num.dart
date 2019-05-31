@@ -3,8 +3,8 @@
  *       数值型 num {整型 int 浮点型 double}
  *       键值对型
  *       列表型
- *       布尔型
- *       字符串型
+ *       布尔型 bool
+ *       字符串型 string
  */
 
 void main() {
