@@ -11,6 +11,6 @@ abstract class Shaper {
     if (type == "square") {
       return Square(2);
     }
-    throw "error";
+    throw 'Can\'t create $type.';
   }
 }
